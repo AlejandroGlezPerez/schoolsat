@@ -4,11 +4,20 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 /*-- reset code --*/
-body{
-	padding:0;
-	margin:0;
-	background:#FFF;
+#download {
+    position: relative;
 }
+#download img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+<div id="content">
+    <img src="images/ribbon.png" class="ribbon"/>
+    <div>some text...</div>
+</div>
+
 body a{
     transition:0.5s all;
 	-webkit-transition:0.5s all;
@@ -24,9 +33,9 @@ input[type="button"],input[type="submit"]{
 	-ms-transition:0.5s all;
 }
 h1,h2,h3,h4,h5,h6{
-	margin:0;	
+	margin:0;
 	padding:0;
-}	
+}
 p{
 	margin:0;
 	padding:0;
@@ -178,8 +187,8 @@ body {
     position: relative;
     padding-top: 55%;
     overflow: hidden;
-} 
- 
+}
+
 .fader .slide{
     position: absolute;
     width: 100%;
@@ -188,7 +197,7 @@ body {
     z-index: 1;
     opacity: 0;
 }
- 
+
 .fader img.slide{
     height:925px;
 	width:100%;
@@ -404,7 +413,7 @@ section.our-work .work-w3 p.work-w3ls {
 	font-size:21px;
 	color:#fff;
 	text-align: center;
-    vertical-align: middle;	
+    vertical-align: middle;
 	 transition:0.5s all;
 	-webkit-transition:0.5s all;
 	-moz-transition:0.5s all;
@@ -477,10 +486,10 @@ section.our-work .work-w3 p.work-w3ls {
 .view ul.social-icons1 li a i.fa.fa-twitter:hover {
 	background-color:#004A82;
 }
-.view ul.social-icons1 li a i.fa.fa-linkedin:hover { 
+.view ul.social-icons1 li a i.fa.fa-linkedin:hover {
 	background-color:#BB5E00;
 }
-.view ul.social-icons1 li a i.fa.fa-google-plus:hover { 
+.view ul.social-icons1 li a i.fa.fa-google-plus:hover {
 	background-color:#8A0B00;
 }
 /*-- /works section --*/
@@ -582,7 +591,7 @@ section.our-testimonials p.text-center {
 section.our-testimonials .carousel-inner>.item {
     text-align: center;
 	margin-top: -1px;
-}	
+}
 section.our-testimonials .carousel-inner>.item>img {
 	margin:30px auto 0;
 }
@@ -653,37 +662,37 @@ input#name , input#email , textarea#message{
 	border:1px solid #fff
 }
 input#name , input#email  , textarea#message {
-	height:55px;	
+	height:55px;
 }
 input::-webkit-input-placeholder {
 color: #fff !important;
 }
- 
+
 input:-moz-placeholder { /* Firefox 18- */
-color: #fff !important;  
+color: #fff !important;
 }
- 
+
 input::-moz-placeholder {  /* Firefox 19+ */
-color: #fff !important;  
+color: #fff !important;
 }
- 
-input:-ms-input-placeholder {  
-color: #fff !important;  
+
+input:-ms-input-placeholder {
+color: #fff !important;
 }
 textarea::-webkit-input-placeholder {
 color: #fff !important;
 }
- 
+
 textarea::-moz-placeholder { /* Firefox 18- */
-color: #fff !important;  
+color: #fff !important;
 }
- 
+
 textarea::-moz-placeholder {  /* Firefox 19+ */
-color: #fff !important;  
+color: #fff !important;
 }
- 
-textarea::-ms-input-placeholder {  
-color: #fff !important;  
+
+textarea::-ms-input-placeholder {
+color: #fff !important;
 }
 textarea#message {
     padding: 15px 0;
@@ -720,7 +729,7 @@ section.our-contacts p.contact-w3l a {
 	color:#fff;
 	text-decoration:none;
 }
-section.our-contacts p.contact-w3l a:hover { 
+section.our-contacts p.contact-w3l a:hover {
 	color:#DA8F4F;
 }
 /*-- /contact section --*/
@@ -764,7 +773,7 @@ section.footer .footer-left .footer-contacts i.fa {
 }
 section.footer .footer-left .footer-contacts p.p1 {
 	color:#fff;
-	margin: -23px 0 0px 37px; 
+	margin: -23px 0 0px 37px;
 	font-size:16px;
 	font-weight:200;
 }
@@ -796,13 +805,13 @@ section.footer .footer-center .footer-links a p {
 	margin: -22px 0 10px 35px;
 }
 section.footer .footer-right .footer-agile .form-group {
-	
+
 }
 section.footer .col-lg-4.footer-right {
 	text-align:-webkit-center;
 }
 section.footer .footer-right .form-control {
-	border-radius:0px;	
+	border-radius:0px;
 	background-color: rgba(0, 0, 0, 0.25);
 	color:#fff;
 	text-align: center;
@@ -813,13 +822,13 @@ section.footer .footer-center  input::-webkit-input-placeholder {
 color:#fff!important;
 }
 section.footer .footer-center  input:-moz-placeholder { /* Firefox 18- */
-color:#fff!important;  
+color:#fff!important;
 }
 section.footer .footer-center  input::-moz-placeholder {  /* Firefox 19+ */
-color:#fff!important;  
+color:#fff!important;
 }
-section.footer .footer-center  input:-ms-input-placeholder {  
-color:#fff!important;  
+section.footer .footer-center  input:-ms-input-placeholder {
+color:#fff!important;
 }
 button.btn-outline {
     border: solid 1px #fff;
@@ -862,7 +871,7 @@ section.footer .footer-right ul.social-icons2 li a i.fa.fa-facebook {
 	font-size:21px;
 	color:#fff;
 	text-align: center;
-    vertical-align: middle;	
+    vertical-align: middle;
 	 transition:0.5s all;
 	-webkit-transition:0.5s all;
 	-moz-transition:0.5s all;
@@ -935,10 +944,10 @@ section.footer .footer-right ul.social-icons2 li a i.fa.fa-facebook:hover {
 section.footer .footer-right ul.social-icons2 li a i.fa.fa-twitter:hover {
 	background-color:#004A82;
 }
-section.footer .footer-right ul.social-icons2 li a i.fa.fa-linkedin:hover { 
+section.footer .footer-right ul.social-icons2 li a i.fa.fa-linkedin:hover {
 	background-color:#BB5E00;
 }
-section.footer .footer-right ul.social-icons2 li a i.fa.fa-google-plus:hover { 
+section.footer .footer-right ul.social-icons2 li a i.fa.fa-google-plus:hover {
 	background-color:#8A0B00;
 }
 section.footer .copyright {
@@ -1018,12 +1027,12 @@ section.footer .copyright p  a:hover {
 @media (max-width: 1600px) {
 .fader img.slide {
     height: 800px;
-}	
+}
 }
 
 @media (max-width: 1440px) {
 .fader .pager_list {
-	bottom:30px;	
+	bottom:30px;
 }
 }
 
@@ -1273,7 +1282,7 @@ section.footer .footer-center .footer-links {
 }
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
     margin-left: 5px;
-}	
+}
 	.fader img.slide, .fader {
     height: 400px;
 }
@@ -1373,7 +1382,7 @@ section.our-contacts p.contact-w3l {
 }
 section.footer .copyright p {
 	font-size:16px;
-}	
+}
 .fader .prev, .fader .next {
     top: 45%;
 }
@@ -1413,13 +1422,13 @@ section.our-features .feature-w3l h4 {
 section.our-work h4 {
     font-size: 25px;
 	padding: 0px 0 30px;
-}	
+}
 section.our-work .work-info h5 {
     font-size: 23px;
 }
 section.our-work .work-w3 h6 {
     font-size: 23px;
-}	
+}
 	.fader img.slide, .fader {
     height: 320px;
 }
@@ -1452,7 +1461,7 @@ section.our-testimonials h3.text-center {
     height: 300px;
 }
 section.our-features h3.text-center, section.our-work h3.text-center, section.our-services h3.text-center, section.our-gallery h3.text-center,section.our-testimonials h3.text-center, section.our-contacts h3.text-center {
-	font-size:30px;		
+	font-size:30px;
 }
 section.footer .footer-left .footer-contacts {
     padding: 20px 0 0 65px;
@@ -1484,7 +1493,7 @@ section.footer .footer-center .footer-links {
 	.navbar-toggle {
 	margin-top:21px;
 	margin-right:7px;
-	padding:7px 9px;	
+	padding:7px 9px;
 }
 section.our-features, section.our-work, section.our-services, section.our-gallery, section.our-testimonials, section.our-contacts, section.footer {
     padding: 20px 0;
@@ -1494,7 +1503,7 @@ section.our-features, section.our-work, section.our-services, section.our-galler
 }
 section.our-features p.text-center, section.our-work p.text-center, section.our-services p.text-center, section.our-gallery p.text-center, section.our-testimonials p.text-center, section.our-contacts p.text-center {
     font-size: 15px;
-}	
+}
 section.our-features .feature-w3l p {
     font-size: 15px;
 }
@@ -1582,6 +1591,6 @@ section.footer .footer-left .footer-contacts {
 }
 section.footer .footer-center .footer-links {
     padding-left: 60px;
-}	
+}
 }
 /*-- /RESPONSIVE DESIGN --*/

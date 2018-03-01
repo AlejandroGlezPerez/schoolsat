@@ -8,6 +8,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html>
 <head>
 <title>SchoolSat – Build your own satellite</title>
+<!-- No cache -->
+<meta http-equiv="cache-control" content="max-age=0" />
+<meta http-equiv="cache-control" content="no-cache" />
+<meta http-equiv="expires" content="0" />
+<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+<meta http-equiv="pragma" content="no-cache" />
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Rocket Industry Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
@@ -48,28 +55,70 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="#">Home</a></li>
 						<li><a href="#feature">About</a></li>
-						<li><a href="#work">Work with OpenSource Data</a></li>
+						<li><a href="#work">Open Source</a></li>
 						<li><a href="#service">Join today</a></li>
 						<li><a href="#gallery">Gallery</a></li>
 						<li><a href="#contact">Contact</a></li>
+            <li><a></a></li>
+            <li><a></a></li>
 					</ul>
 				</div>
 			</div>
         </nav>
 	</div>
 </div>
+<a href="https://github.com/nicinabox/superslides"><img style="position: relative fixed; z-index: 21; top: 0; right: 0; border: 0;" src="images/download-me.png" alt="Fork me on GitHub"></a>
+
 <!-- /navigation -->
 <!-- banner section -->
-<div id="Fader" class="fader">
-	<img class="slide img-responsive" src="images/banner1.jpg" alt="w3layouts">
-	<img class="slide img-responsive" src="images/banner2.jpg" alt="w3layouts">
-	<img class="slide img-responsive" src="images/banner3.jpg" alt="w3layouts">
-	<img class="slide img-responsive" src="images/banner4.jpg" alt="w3layouts">
-    <div class="fader_controls">
-		<div class="page prev" data-target="prev">&lsaquo;</div>
-		<div class="page next" data-target="next">&rsaquo;</div>
-		<ul class="pager_list"></ul>
-    </div>
+<div id="slides" class="slide">
+  <ul class="slides-container">
+    <li>
+      <img src="images/banner1.jpg" alt="">
+      <div class="container">
+        <h1 class="slide">Become a rocket scientist before finishing school.</h1>
+        <p>
+        </p>
+      </div>
+    </li>
+    <li>
+      <img src="images/banner2.jpg" alt="">
+      <div class="container">
+        <h1>It's responsive.</h1>
+        <div class="contrast">
+          <p>
+            Images are smartly centered in the viewport. Use your own media queries to control the layout of your content.
+          </p>
+        </div>
+      </div>
+    </li>
+    <li>
+      <img src="images/banner3.jpg" alt="">
+      <div class="container">
+        <h1>It's hardware accelerated.</h1>
+        <div class="contrast">
+          <p>For browsers that support CSS hardware acceleration, tasks, such as animation, are processed by the GPU giving massive performance gains.</p>
+        </div>
+      </div>
+    </li>
+    <li>
+      <img src="images/banner4.jpg" alt="">
+      <div class="container">
+        <h1>It's got a pretty sweet API.</h1>
+        <div class="contrast">
+          <p>The control API lets you start, stop, animate, and destroy instances of the slider. You can get the current, next, and previous slides programmatically. In fact, the slider uses the same API internally.</p>
+        </div>
+      </div>
+    </li>
+  </ul>
+  <nav class="slides-navigation">
+    <a href="#" class="next">
+      <i class="icon-chevron-right"></i>
+    </a>
+    <a href="#" class="prev">
+      <i class="icon-chevron-left"></i>
+    </a>
+  </nav>
 </div>
 <!-- banner section -->
 <!-- features section -->
