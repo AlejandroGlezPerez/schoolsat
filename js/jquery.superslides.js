@@ -210,7 +210,6 @@ var css = {
     $children.css({
       position: 'absolute',
       overflow: 'hidden',
-      overflow: 'visible',
       height: '100%',
       width: that.width,
       top: 0,
