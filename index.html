@@ -25,22 +25,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href="css/work.css" rel="stylesheet" type="text/css" media="all"/>
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
 <!-- /css files -->
-
-<!-- superslides css files -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="js/jquery.animate-enhanced.min.js"></script>
-<script src="js/application.js"></script>
-<script src="js/jquery.hammer.min.js"></script>
-<script src="js/jquery.superslides.js" type="text/javascript" charset="utf-8"></script>
-<!-- superslides /css files -->
-
-<!-- superslides js files -->
-
-<link rel="stylesheet" href="css/superslides.css">
-<link rel="stylesheet" href="css/sliderlayout.css">
-
-<!-- superslides /js files -->
-
 <!-- js files -->
 
 <!-- /js files -->
@@ -76,54 +60,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </div>
 <!-- /navigation -->
 <!-- banner section -->
-<div id="slides" class="slide">
-  <ul class="slides-container">
-    <li>
-      <img src="images/banner1.jpg" alt="">
-      <div class="container">
-        <h1 class="slide">Superslides is a fullscreen slider for jQuery.</h1>
-        <p>
-        </p>
-      </div>
-    </li>
-    <li>
-      <img src="images/banner2.jpg" alt="">
-      <div class="container">
-        <h1>It's responsive.</h1>
-        <div class="contrast">
-          <p>
-            Images are smartly centered in the viewport. Use your own media queries to control the layout of your content.
-          </p>
-        </div>
-      </div>
-    </li>
-    <li>
-      <img src="images/banner3.jpg" alt="">
-      <div class="container">
-        <h1>It's hardware accelerated.</h1>
-        <div class="contrast">
-          <p>For browsers that support CSS hardware acceleration, tasks, such as animation, are processed by the GPU giving massive performance gains.</p>
-        </div>
-      </div>
-    </li>
-    <li>
-      <img src="images/banner4.jpg" alt="">
-      <div class="container">
-        <h1>It's got a pretty sweet API.</h1>
-        <div class="contrast">
-          <p>The control API lets you start, stop, animate, and destroy instances of the slider. You can get the current, next, and previous slides programmatically. In fact, the slider uses the same API internally.</p>
-        </div>
-      </div>
-    </li>
-  </ul>
-  <nav class="slides-navigation">
-    <a href="#" class="next">
-      <i class="icon-chevron-right"></i>
-    </a>
-    <a href="#" class="prev">
-      <i class="icon-chevron-left"></i>
-    </a>
-  </nav>
+<div id="Fader" class="fader">
+	<img class="slide img-responsive" src="images/banner1.jpg" alt="w3layouts">
+	<img class="slide img-responsive" src="images/banner2.jpg" alt="w3layouts">
+	<img class="slide img-responsive" src="images/banner3.jpg" alt="w3layouts">
+	<img class="slide img-responsive" src="images/banner4.jpg" alt="w3layouts">
+    <div class="fader_controls">
+		<div class="page prev" data-target="prev">&lsaquo;</div>
+		<div class="page next" data-target="next">&rsaquo;</div>
+		<ul class="pager_list"></ul>
+    </div>
 </div>
 <!-- banner section -->
 <!-- features section -->
@@ -133,19 +79,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-4 col-md-4 col-sm-6 feature-w3l">
-				<img class="img-circle img-responsive" src="images/feature1.jpg" alt="Generic placeholder image">
+				<img class="img-circle img-responsive" src="images/cubesat1.png" alt="Generic placeholder image">
 				<h4>Send you own satelite to space</h4>
-				<p>SchoolSat aims to provide primary and secondary school students with an opportunity to explore the space. Enter the application process and build your own satellite just in couple months!</p>
+				<p>SchoolSat aims to provide primary and secondary school students with an opportunity to explore the space. Build your satelite today!</p>
 			</div><!-- /.col-lg-4 -->
 			<div class="col-lg-4 col-md-4 col-sm-6 feature-w3l">
-				<img class="img-circle img-responsive" src="images/feature2.jpg" alt="Generic placeholder image">
-				<h4>Tweak your SchoolSat</h4>
-				<p>SchoolSat is customisable to suit needs of your own research project. Choose 8 out of 30 available senors to measure physical properties you need.</p>
+				<img class="img-circle img-responsive" src="images/cubesat2.png" alt="Generic placeholder image">
+				<h4>Modify it as you like</h4>
+				<p>SchoolSat is customisable to suit needs of your own research project. Choose 8 out of 30 available senors to measure physical properties that you need.</p>
 			</div><!-- /.col-lg-4 -->
 			<div class="col-lg-4 col-md-4 col-sm-6 feature-w3l f3">
-				<img class="img-circle img-responsive" src="images/feature3.jpg" alt="Generic placeholder image">
+				<img class="img-circle img-responsive" src="images/cubesat3.png" alt="Generic placeholder image">
 				<h4>All data is OpenSource!</h4>
-				<p>All data collected by CubeSats is OpenSource, meaning you can use it for your own research without moving out from your bed!</p>
+				<p>If building a satelite is not for you, make research with data that has already been collected. Check our repository to find out more. It's all Open Source!</p>
 			</div><!-- /.col-lg-4 -->
 		</div><!-- /.row -->
 	</div>
@@ -153,8 +99,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- /features section -->
 <!-- work section -->
 <section class="our-work" id="work">
-	<h3 class="text-center agileits agileinfo wthree w3-agileits">Work with OpenSource Data</h3>
-	<p class="text-center agileits agileinfo wthree w3-agileits">Use data collected by already lounched projects for free. Make your own research!</p>
+	<h3 class="text-center agileits agileinfo wthree w3-agileits">Exploring the space</h3>
+	<p class="text-center agileits agileinfo wthree w3-agileits" class="row">With SchoolSat you decide which physical qunatities you want to measure. Free your imaginationa and start exploring the space!</p>
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6">
@@ -163,19 +109,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="row">
 						<div class="work-agileits">
 							<div class="col-lg-5 col-md-3 col-sm-6 work-w3l">
-								<img class="img-circle img-responsive" src="images/work1.jpg" alt="Generic placeholder image">
+								<img class="img-circle img-responsive" src="images/clouds.jpg" alt="Generic placeholder image">
 							</div>
 							<div class="col-lg-7 col-md-3 col-sm-6 work-w3h">
 								<div class="work-w3agile">
 									<h5>Understand Cloud movement using image analysis</h5>
-									<p class="work-agile">Feeling like watching Weather forecast on TV is too mainstream? Use data collected by the SchoolSat cameras to analyse cloud movements and try to predict wether changes if you are keen.</p>
+									<p class="work-agile">Feeling like watching Weather forecast on TV is too mainstream? Use data collected by the SchoolSat cameras to analyse cloud movements and try to predict weather changes if you are keen.</p>
 								</div>
 							</div>
 						</div>
 						<!--div class="clearfix"></div-->
 						<div class="work-agileits">
 							<div class="col-lg-5 col-md-3 col-sm-6 work-w3l">
-								<img class="img-circle img-responsive" src="images/work2.jpg" alt="Generic placeholder image">
+								<img class="img-circle img-responsive" src="images/USA_by_night.jpg" alt="Generic placeholder image">
 							</div>
 							<div class="col-lg-7 col-md-3 col-sm-6 work-w3h">
 								<div class="work-w3agile">
@@ -188,12 +134,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 			</div>
 			<div class="col-lg-6">
-				<h4>Meet our fellow researchers</h4>
+				<h4>Two ways to get involved</h4>
 				<div class="row">
 					<div class="col-xs-6 work-w3lsagile">
 						<div class="work-w3">
 							<div class="view view-sixth">
-								<img src="images/work-img1.jpg" alt="work" class="img-responsive">
+								<img src="images/Render_transparent.png" alt="work" class="img-responsive">
 								<div class="mask">
 									<ul class="social-icons1">
 										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -203,14 +149,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									</ul>
 								</div>
 							</div>
-							<h6>Janek</h6>
-							<p class="work-w3ls">"I really loved the freedom SchoolSat offers. I was able to make my own research and had all the date I needed!"</p>
+							<h6>Send your satelite</h6>
+							<p class="work-w3ls">If you want to customise satelite to collect specific type of data, or you just enjoy building stuff and want to learn more about satelites. This option if for you.</p>
 						</div>
 					</div>
-					<div class="col-xs-6 work-w3lsagile">
+                    <div class="col-xs-6 work-w3lsagile">
 						<div class="work-w3">
 							<div class="view view-sixth">
-								<img src="images/work-img2.jpg" alt="work" class="img-responsive">
+								<img src="images/opensource_data.png" alt="work" class="img-responsive">
 								<div class="mask">
 									<ul class="social-icons1">
 										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -220,8 +166,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									</ul>
 								</div>
 							</div>
-							<h6>Alvaro</h6>
-							<p class="work-w3ls">"It was an incredible experience. It was the first time I could access data with such depth."</p>
+							<h6>Use OpenSource data</h6>
+							<p class="work-w3ls">Check our respository for data, or submit your reaserch idea and we will inform you when a satelite capabke of making your research will be sent to space.</p>
 						</div>
 					</div>
 				</div>
@@ -233,35 +179,35 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- services section -->
 <section class="our-services" id="service">
 	<h3 class="text-center agileits-w3layouts agile w3-agile">Join Today</h3>
-	<p class="text-center agileits-w3layouts agile w3-agile">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+	<p class="text-center agileits-w3layouts agile w3-agile">Here are all steps you need to take to get involved.</p>
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-3 col-md-6 col-sm-6">
 				<div class="serv-w3l">
-					<i class="fa fa-fighter-jet" aria-hidden="true"></i>
-					<h4 class="text-center">Lorem Ipsum</h4>
-					<p class="serv-w3ls">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+					<img src="images/1.png" alt="work" class="img-responsive">
+					<h4 class="text-center">Check our repository.</h4>
+					<p class="serv-w3ls">See in our repository if we already have the data you are looking for.</p>
 				</div>
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-6">
 				<div class="serv-w3l">
-					<i class="fa fa-plane" aria-hidden="true"></i>
-					<h4 class="text-center">Lorem Ipsum</h4>
-					<p class="serv-w3ls">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+					<img src="images/2.png" alt="work" class="img-responsive">
+					<h4 class="text-center">Build your satellite</h4>
+					<p class="serv-w3ls">Download all files required to build your own Cube satellite. Downloadable file has a manual to guide you through.</p>
 				</div>
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-6">
 				<div class="serv-w3l">
-					<i class="fa fa-rocket" aria-hidden="true"></i>
-					<h4 class="text-center">Lorem Ipsum</h4>
-					<p class="serv-w3ls">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+					<img src="images/3.png" alt="work" class="img-responsive">
+					<h4 class="text-center">Apply for a free lunch</h4>
+					<p class="serv-w3ls">Satelite lunching is expensive, but there are many ways you could do it for free. Check out Satellite Applications Catapult's In-orbit programme</p>
 				</div>
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-6">
 				<div class="serv-w3l">
-					<i class="fa fa-space-shuttle" aria-hidden="true"></i>
-					<h4 class="text-center">Lorem Ipsum</h4>
-					<p class="serv-w3ls">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+					<img src="images/4.png" alt="work" class="img-responsive">
+					<h4 class="text-center">Explore Space</h4>
+					<p class="serv-w3ls">You are now officially exploring space with your own satelite. Well done!</p>
 				</div>
 			</div>
 		</div>
@@ -462,6 +408,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <a href="#0" class="cd-top">Top</a>
 <!-- /back to top -->
 <!-- js files -->
+<script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/SmoothScroll.min.js"></script>
 <!-- js for gallery section -->
